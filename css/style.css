@@ -1,22 +1,18 @@
-/* Всі необхідні кольори
-Основний колір фону : 
-Вторинний колір фону :
-Акцент : 
-
-Основний колір тексту :
-Вторинний колір тексту :
-Додаткові кольори тексту :
-*/
+/* Виділені основні кольори фону, спільні кольори для фону та тексту, кольори тексту. Використання змінних*/
 :root {
-    --primary-backgroud-color: red;
-    --secondary-backgroud-color: red;
-    --accent-backgroud-color: red;
+    --primary-backgroud-color:#E5E5E5;
+    --secondary-backgroud-color: #2F303A;
+    --team-background-color: #F5F4FA;
 
-    --primary-text-color: red;
-    --secondary-text-color: red;
-    --accent-text-color: red;
+    --navmain-hero-adress-color: #FFFFFF;
+    --accent-color: #2196F3;
+
+    --primary-text-color:#757575;
+    --secondary-text-color:#212121;
+    --transparent-text-color: rgba(255, 255, 255, 0.6);
 }
 
+/*Забираємо точки в списках і підкреслення ссилок*/
 ul {
     list-style: none;
 }
