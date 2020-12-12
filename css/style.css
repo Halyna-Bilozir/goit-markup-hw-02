@@ -1,0 +1,18 @@
+/* Всі необхідні кольори
+Основний колір фону : 
+Вторинний колір фону :
+Акцент : 
+
+Основний колір тексту :
+Вторинний колір тексту :
+Додаткові кольори тексту :
+*/
+:root {
+    --primary-backgroud-color: red;
+    --secondary-backgroud-color: red;
+    --accent-backgroud-color: red;
+
+    --primary-text-color: red;
+    --secondary-text-color: red;
+    --accent-text-color: red;
+}
