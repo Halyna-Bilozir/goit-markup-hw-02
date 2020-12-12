@@ -16,3 +16,10 @@
     --secondary-text-color: red;
     --accent-text-color: red;
 }
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
