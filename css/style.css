@@ -18,6 +18,7 @@ ul {
 }
 a {
     text-decoration: none;
+    font-style: inherit;
 }
 
 /*Загальне для body*/
@@ -54,7 +55,6 @@ header {
 
 /*Оформлення списку навігації та списку контактів*/
 .nav-links, .contact {
-    font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -74,7 +74,6 @@ header {
 
 /*Оформлення секції героя. Секція, в якій можна замовити послугу*/
 .hero {
-    font-family: Roboto, sans-serif;
     text-align: center;
     letter-spacing: 0.06em;
 
@@ -88,10 +87,42 @@ header {
     text-transform: uppercase;
 }
 .hero-button {
-    font-family: Roboto;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
 
     background-color: var(--accent-color);
+}
+
+/*Оформлення секції переваг*/
+.benefits {
+    font-size: 14px;
+
+    background-color: var(--primary-backgroud-color);
+}
+.benefits-header {
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: var(--secondary-text-color);
+}
+.benefits-text {
+    font-weight: 400;
+    line-height: 1.71;
+
+    color: var(--primary-text-color);
+}
+
+/* Оформлення секції Сфера дільності*/
+.sphere {
+    background-color: var(--primary-backgroud-color);
+}
+.sphere-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+
+    color: var(--secondary-text-color);
 }
