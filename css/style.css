@@ -19,7 +19,6 @@ ul {
 a {
     text-decoration: none;
     font-style: inherit;
-    color: inherit;
 }
 
 /*Загальне для body*/
@@ -63,8 +62,10 @@ header {
 
     color: var(--secondary-text-color);
 }
-
-.nav-links-studio, .contact-mail{
+.nav-links-portfolio, .nav-links-contacts {
+    color: var(--secondary-text-color);
+}
+.nav-links-studio, .contact-mail {
     color: var(--accent-color);
 }
 .contact-tel {
