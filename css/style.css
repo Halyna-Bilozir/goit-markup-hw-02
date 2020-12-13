@@ -196,14 +196,13 @@ button {
 }
 
 /*Оформлення списку*/
-a {
-    font-family: inherit;
-}
+
 .image-header {
     font-weight: 700;
     font-size: 18px;
     line-height: 2.0;
     letter-spacing: 0.06em;
+    color: var(--secondary-text-color);
 }
 .image-text {
     font-size: 16px;
