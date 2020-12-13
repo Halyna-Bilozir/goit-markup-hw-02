@@ -196,6 +196,9 @@ button {
 }
 
 /*Оформлення списку*/
+a {
+    font-family: inherit;
+}
 .image-header {
     font-weight: 700;
     font-size: 18px;
