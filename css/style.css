@@ -65,13 +65,25 @@ header {
 .nav-links-portfolio, 
 .nav-links-contacts, 
 .nav-links-studio,
-.nav-link-studio {
+.nav-links-portfolio:hover, 
+.nav-links-contacts:hover, 
+.nav-links-studio:hover, 
+.nav-links-portfolio:focus, 
+.nav-links-contacts:focus, 
+.nav-links-studio:focus {
     color: var(--secondary-text-color);
 }
-.nav-links-studio, .nav-link-portfolio, .contact-mail {
+.nav-links-studio, 
+.contact-mail,
+.nav-links-studio:hover, 
+.contact-mail:hover,
+.nav-links-studio:focus, 
+.contact-mail:focus {
     color: var(--accent-color);
 }
-.contact-tel {
+.contact-tel,
+.contact-tel:hover
+.contact-tel:focus {
     color: var(--primary-text-color);
 }
 
