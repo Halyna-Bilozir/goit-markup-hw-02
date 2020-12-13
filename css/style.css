@@ -62,7 +62,9 @@ header {
 
     color: var(--secondary-text-color);
 }
-.nav-links-portfolio, .nav-links-contacts {
+.nav-links-portfolio, 
+.nav-links-contacts, 
+.nav-links-studio {
     color: var(--secondary-text-color);
 }
 .nav-links-studio, .contact-mail {
@@ -167,4 +169,42 @@ font-style: inherit;
 }
 .footer-address-contact { 
     color: rgba(255, 255, 255, 0.6);
+}
+
+/*Оформлення другої сторінки Portfolio*/
+.main-portfolio {
+    background-color: var(--primary-backgroud-color);
+}
+
+/* Оформлення навігації*/
+button {
+    font-family: inherit;
+}
+.nav-portfolio {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+
+    text-align: center;
+}
+.nav-button-main {
+    color: var(--navmain-hero-adress-color);
+    background-color: var(--accent-color);
+}
+.nav-button-secondary, .image-header {
+    color: var(--secondary-text-color);
+}
+
+/*Оформлення списку*/
+.image-header {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+.image-text {
+    font-size: 16px;
+    line-height: 1.88;
+
+    color: var(--primary-text-color);
 }
