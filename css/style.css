@@ -91,6 +91,7 @@ header {
     font-size: 16px;
     line-height: 1.88;
 
+    color: var(--navmain-hero-adress-color);
     background-color: var(--accent-color);
 }
 
@@ -125,4 +126,42 @@ header {
     text-align: center;
 
     color: var(--secondary-text-color);
+}
+
+/*Оформлення секції Команда*/
+.team {
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--secondary-text-color);
+    background-color: var(--team-background-color);
+}
+.team-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+}
+.team-header-photo {
+font-weight: 500;
+}
+.team-text {
+    color: var(--primary-text-color);
+}
+
+/* Оформлення підвалу, переплітається з хедером*/
+.footer-page {
+    font-size: 14px;
+    line-height: 1.71;
+     background-color: var(--secondary-backgroud-color);
+}
+address {
+font-style: inherit;
+}
+.footer-address {
+    color: var(--navmain-hero-adress-color);
+}
+.footer-address-contact { 
+    color: rgba(255, 255, 255, 0.6);
 }

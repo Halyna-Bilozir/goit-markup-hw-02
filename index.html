@@ -13,7 +13,7 @@
     <!--Верхня лінія. Шапка(на макеті шапка ще перша секція, в мене лише перша лінія). Логотип. Загальна навігація. Контакти. Відображається на кожній сторінці-->
     <header>
         <a class="logo header" href="https://halyna-bilozir.github.io/goit-markup-hw-02/index.html">
-            <span class="logo accent">Web</span>Studio
+            <span class="logo accent">Web</span><span class="logo header">Studio</span>
         </a>
         <nav class="nav-links">
             <ul>
@@ -78,36 +78,36 @@
         </section>
 
         <!--Команда. Фото професіоналів, основна інформація-->
-        <section>
-            <h2 lang="ru">Наша команда</h2>
+        <section class="team">
+            <h2 class="team-header" lang="ru">Наша команда</h2>
             <ul>
                 <li>
                     <!--Обернула все в лінк, щоб переходило по ссилці і по фото і по підпису-->
                     <a href="">
                         <img src="./images/photo01.jpg" alt="Портрет мужчины-дизайнера в бордовой рубашке">
-                        <h3 lang="ru">Игорь Демьяненко</h3>
-                        <p>Product Designer</p>
+                        <h3 class="team-header-photo" lang="ru">Игорь Демьяненко</h3>
+                        <p class="team-text">Product Designer</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <img src="./images/photo02.jpg" alt="Портрет женщины разработчика в черном пиджаке">
-                        <h3 lang="ru">Ольга Репина</h3>
-                        <p>Frontend Developer</p>
+                        <h3 class="team-header-photo" lang="ru">Ольга Репина</h3>
+                        <p class="team-text">Frontend Developer</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <img src="./images/photo03.jpg" alt="Портрет мужчины - маркетолога в голубой рубашке">
-                        <h3 lang="ru">Николай Тарасов</h3>
-                        <p>Marketing</p>
+                        <h3 class="team-header-photo" lang="ru">Николай Тарасов</h3>
+                        <p class="team-text">Marketing</p>
                     </a>
                 </li>
                 <li>
                     <a href="">
                         <img src="./images/photo04.jpg" alt="Портрет мужчины - дизайнера в черной футболке">
-                        <h3 lang="ru">Михаил Ермаков</h3>
-                        <p>UI Designer</p>
+                        <h3 class="team-header-photo" lang="ru">Михаил Ермаков</h3>
+                        <p class="team-text">UI Designer</p>
                     </a>
                 </li>
             </ul>
@@ -116,17 +116,17 @@
     </main>
 
     <!--Підвал, де вказана адреса і контакти. Відображається на кожній сторінці-->
-    <footer>
-        <a class="logo footer" href="https://halyna-bilozir.github.io/goit-markup-hw-02/index.html">
-            <span class="logo accent">Web</span>Studio
+    <footer class="footer-page">
+        <a href="https://halyna-bilozir.github.io/goit-markup-hw-02/index.html">
+            <span class="logo accent">Web</span><span class="logo footer">Studio</span>
         </a>
-        <address lang="ru">
+        <address class="footer-address" lang="ru">
             г. Киев, пр-т Леси Украинки, 26
         </address>
         <address>
-            <a href="mailto:info@example.com">info@example.com</a>
+            <a class="footer-address-contact" href="mailto:info@example.com">info@example.com</a>
               </br>
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
+            <a class="footer-address-contact" href="tel:+380991111111">+38 099 111 11 11</a>
         </address>
     </footer>
 </body>
