@@ -175,7 +175,10 @@ font-style: inherit;
 .main-portfolio {
     background-color: var(--primary-backgroud-color);
 }
-
+.nav-links-portfolio {
+    color: var(--navmain-hero-adress-color);
+    background-color: var(--accent-color);
+}
 /* Оформлення навігації*/
 button {
     font-family: inherit;
