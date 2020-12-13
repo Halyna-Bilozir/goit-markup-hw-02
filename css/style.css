@@ -19,3 +19,26 @@ ul {
 a {
     text-decoration: none;
 }
+
+/*Оформлення логотипу*/
+
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+
+    letter-spacing: 0.03em;
+}
+.logo .accent {
+    color: var(--accent-color);
+}
+.logo .header {
+    color: var(--secondary-text-color);
+}
+.logo .footer {
+    color: var(--navmain-hero-adress-color);
+}
+
+/*Оформлення навігації*/
