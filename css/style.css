@@ -64,10 +64,11 @@ header {
 }
 .nav-links-portfolio, 
 .nav-links-contacts, 
-.nav-links-studio {
+.nav-links-studio,
+.nav-link-studio {
     color: var(--secondary-text-color);
 }
-.nav-links-studio, .contact-mail {
+.nav-links-studio, .nav-link-portfolio, .contact-mail {
     color: var(--accent-color);
 }
 .contact-tel {
