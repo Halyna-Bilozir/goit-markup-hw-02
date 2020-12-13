@@ -144,7 +144,8 @@ header {
     line-height: 42px;
 }
 .team-header-photo {
-font-weight: 500;
+    font-weight: 500;
+    color: var(--secondary-text-color);
 }
 .team-text {
     color: var(--primary-text-color);
@@ -154,7 +155,7 @@ font-weight: 500;
 .footer-page {
     font-size: 14px;
     line-height: 1.71;
-     background-color: var(--secondary-backgroud-color);
+    background-color: var(--secondary-backgroud-color);
 }
 address {
 font-style: inherit;
