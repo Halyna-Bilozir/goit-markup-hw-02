@@ -147,8 +147,12 @@ header {
     color: var(--secondary-text-color);
     background-color: var(--team-background-color);
 }
-.team-image {
+/*.team-image {
     background: url(./images/photo01.jpg);
+}*/
+.team-image {
+    width: 270px;
+    height: 260px;
 }
 .team-header {
     font-weight: 700;
