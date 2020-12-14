@@ -178,7 +178,8 @@ font-style: inherit;
 .main-portfolio {
     background-color: var(--primary-backgroud-color);
 }
-.nav-links-pportfolio {
+.nav-links-pportfolio:hover, 
+.nav-links-pportfolio:focus {
     color: var(--accent-color);
 }
 .nav-links-sstudio {
