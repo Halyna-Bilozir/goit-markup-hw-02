@@ -61,16 +61,11 @@ header {
 
     color: var(--secondary-text-color);
 }
+/*.nav-links-studio,
 .nav-links-portfolio, 
-.nav-links-contacts, 
-.nav-links-portfolio:hover, 
-.nav-links-contacts:hover,  
-.nav-links-portfolio:focus, 
-.nav-links-contacts:focus {
+.nav-links-contacts {
     color: var(--secondary-text-color);
-}
-.nav-links-studio, 
-.contact-mail,
+}*/
 .nav-links-studio:hover, 
 .contact-mail:hover,
 .nav-links-studio:focus, 
@@ -78,8 +73,7 @@ header {
     color: var(--accent-color);
 }
 .contact-tel,
-.contact-tel:hover,
-.contact-tel:focus {
+.contact-mail {
     color: var(--primary-text-color);
 }
 
@@ -194,18 +188,18 @@ font-style: inherit;
 button {
     font-family: inherit;
 }
-.nav-portfolio {
+.list-button {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
 
     text-align: center;
 }
-.nav-button-main {
+.list-button-main {
     color: var(--navmain-hero-adress-color);
     background-color: var(--accent-color);
 }
-.nav-button-secondary, .image-header {
+.list-button-secondary, .image-header {
     color: var(--secondary-text-color);
 }
 
