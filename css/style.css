@@ -61,11 +61,11 @@ header {
 
     color: var(--secondary-text-color);
 }
-/*.nav-links-studio,
+.nav-links-studio,
 .nav-links-portfolio, 
 .nav-links-contacts {
     color: var(--secondary-text-color);
-}*/
+}*
 .nav-links-studio:hover, 
 .contact-mail:hover,
 .nav-links-studio:focus, 
