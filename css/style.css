@@ -133,6 +133,9 @@ header {
 
     color: var(--secondary-text-color);
 }
+.sphere-image {
+    background: url(./images/image01.jpg);
+}
 
 /*Оформлення секції Команда*/
 .team {
