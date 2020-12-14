@@ -18,7 +18,7 @@ ul {
 }
 a {
     text-decoration: none;
-    font-style: inherit;
+    /*font-style: inherit;*/
 }
 
 /*Загальне для body*/
