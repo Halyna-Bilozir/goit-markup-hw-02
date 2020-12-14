@@ -64,13 +64,10 @@ header {
 }
 .nav-links-portfolio, 
 .nav-links-contacts, 
-.nav-links-studio,
 .nav-links-portfolio:hover, 
-.nav-links-contacts:hover, 
-.nav-links-studio:hover, 
+.nav-links-contacts:hover,  
 .nav-links-portfolio:focus, 
-.nav-links-contacts:focus, 
-.nav-links-studio:focus {
+.nav-links-contacts:focus {
     color: var(--secondary-text-color);
 }
 .nav-links-studio, 
@@ -82,7 +79,7 @@ header {
     color: var(--accent-color);
 }
 .contact-tel,
-.contact-tel:hover
+.contact-tel:hover,
 .contact-tel:focus {
     color: var(--primary-text-color);
 }
@@ -188,8 +185,11 @@ font-style: inherit;
 .main-portfolio {
     background-color: var(--primary-backgroud-color);
 }
-.nav-links-portfolio {
+.nav-links-pportfolio {
     color: var(--accent-color);
+}
+.nav-links-sstudio {
+   color: var(--secondary-text-color);
 }
 /* Оформлення навігації*/
 button {
