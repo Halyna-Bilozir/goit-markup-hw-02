@@ -182,10 +182,11 @@ font-style: inherit;
 .nav-links-pportfolio:focus {
     color: var(--accent-color);
 }
-.nav-links-sstudio {
+.nav-links-sstudio,
+.nav-links-pportfolio {
    color: var(--secondary-text-color);
 }
-/* Оформлення навігації*/
+/* Оформлення фільтру*/
 button {
     font-family: inherit;
 }
