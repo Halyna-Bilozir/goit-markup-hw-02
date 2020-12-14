@@ -133,9 +133,6 @@ header {
 
     color: var(--secondary-text-color);
 }
-/*.sphere-image {
-    background: url(./images/image01.jpg);
-}*/
 .sphere-image {
     width: 370px;
     height: 294px;
@@ -150,9 +147,6 @@ header {
     color: var(--secondary-text-color);
     background-color: var(--team-background-color);
 }
-/*.team-image {
-    background: url(./images/photo01.jpg);
-}*/
 .team-image {
     width: 270px;
     height: 260px;
@@ -218,9 +212,6 @@ button {
 }
 
 /*Оформлення списку*/
-/*.image-size {
-    background: url(./images/portfolio01.jpg);
-}*/
 .image-size {
     width: 370px;
     height: 294px;
