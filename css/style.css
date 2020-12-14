@@ -133,10 +133,13 @@ header {
 
     color: var(--secondary-text-color);
 }
-.sphere-image {
+/*.sphere-image {
     background: url(./images/image01.jpg);
+}*/
+.sphere-image {
+    width: 370px;
+    height: 294px;
 }
-
 /*Оформлення секції Команда*/
 .team {
     font-size: 16px;
@@ -215,8 +218,12 @@ button {
 }
 
 /*Оформлення списку*/
-.image-size {
+/*.image-size {
     background: url(./images/portfolio01.jpg);
+}*/
+.image-size {
+    width: 370px;
+    height: 294px;
 }
 .image-header {
     font-weight: 700;
