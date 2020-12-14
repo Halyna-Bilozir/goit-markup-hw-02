@@ -147,6 +147,9 @@ header {
     color: var(--secondary-text-color);
     background-color: var(--team-background-color);
 }
+.team-image {
+    background: url(./images/photo01.jpg);
+}
 .team-header {
     font-weight: 700;
     font-size: 36px;
@@ -208,7 +211,9 @@ button {
 }
 
 /*Оформлення списку*/
-
+.image-size {
+    background: url(./images/portfolio01.jpg);
+}
 .image-header {
     font-weight: 700;
     font-size: 18px;
