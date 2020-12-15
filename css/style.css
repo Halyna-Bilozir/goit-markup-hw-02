@@ -110,7 +110,7 @@ header {
 .benefits-header {
     font-weight: 700;
     line-height: 1.14;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 
     color: var(--secondary-text-color);
 }
